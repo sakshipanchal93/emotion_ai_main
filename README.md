@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Task Optimizer
 
 Task Optimizer is a full-stack AI system that detects employee mood and emotion, recommends suitable tasks, tracks mood history, and provides team analytics with stress alerts.
@@ -67,3 +68,6 @@ App URL: `http://localhost:5173`
 - Use anonymized `employee_id` and `team_id` identifiers.
 - Do not send personal identifiers in text payloads.
 - Store only required operational data.
+=======
+# emotion_ai_main
+>>>>>>> 674e4501ed7a8cce1518780ad3afd3ffccaca69e

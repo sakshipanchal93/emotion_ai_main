@@ -1,0 +1,16 @@
+version: '3.9'
+services:
+  postgres:
+    image: postgres:16
+    container_name: task-optimizer-db
+    environment:
+      POSTGRES_USER: task_optimizer
+      POSTGRES_PASSWORD: task_optimizer
+      POSTGRES_DB: task_optimizer
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
